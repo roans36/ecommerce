@@ -33,7 +33,7 @@ const AboutUs = () => {
         <div className="m-10 ">
           <div className="text-[#E3A476] text-5xl p-5 font-light text-center">Meet The <b className="font-extrabold">Team</b></div>
         </div>
-        <div className="grid min-[960px]:grid-cols-3 min-[760px]:grid-cols-2 justify-items-center m-16 p-10">
+        <div className="grid min-[960px]:grid-cols-3 min-[760px]:grid-cols-2 justify-items-center sm:m-16 sm:p-10">
           <div className=" items-center">
             <img className=" border border-orange-400 w-[226px] h-[220px] rounded-3xl " src={require("./peoples/6.png")} alt="James T. Kirk" />
             <div className=" block text-center text-xl font-[#1C4F40]  font-extrabold">James T. Kirk</div>
